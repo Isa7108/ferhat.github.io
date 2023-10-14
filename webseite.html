@@ -89,7 +89,7 @@
   
   .navbar {
     background-color: #e5e5e5;
-    height: 50px;
+    height: auto;
   }
   
   
@@ -97,12 +97,12 @@
     display: flex;
     justify-content: space-between;
     background-color: #e5e5e5;
-    height: 50px;
+    height: auto;
   }
   
   .name {
-    padding: 15px;
-    font-size: 24px;
+    padding: 18px;
+    font-size: auto;
   }
   
   
@@ -110,24 +110,26 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    font-size: auto;
   }
   
   
   nav {
     float: right;
     margin: 0;
+    font-size: auto;
   }
   
   li {
     display: inline;
-    padding: 15px;
+    padding: 18px;
   }
   
   nav a {
     text-decoration: none;
     color: #353535;
     display: inline-block;
-    padding-top: 15px;
+    padding-top: 18px;
   }
   
   nav a:hover {
@@ -141,10 +143,14 @@
   * {
     font-family: Montserrat, sans-serif;
   }
-  
 
+@media screen and (max-width: 1000px) {
+   nav a {
+     font-size: 12px !important; 
+   }
+}
 
-  </style>
+</style>
   
   
   
@@ -157,7 +163,6 @@
                               .C{
                                   height: 50x;
                                   width: 50px;
-  
+
                               }
         </style>
-  
